@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background: white;
+  border: 1px solid #999;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  cursor: pointer;
+  color: black; 
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
